@@ -6,8 +6,8 @@ import org.junit.Test;
 
 
 @org.junit.runner.RunWith(net.serenitybdd.cucumber.CucumberWithSerenity.class)
-    @cucumber.api.CucumberOptions(features = {"src/test/resources/features/PhoneNumberPurchase.feature"}
-    , glue = {"suite.step_definitions.OnlineOrdering"})
+    @cucumber.api.CucumberOptions(features = {"src/test/resources/features"}
+    , glue = {"suite.step_definitions"})
 
     public class PhoneNumberPurchase {
 
